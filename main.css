@@ -1,0 +1,448 @@
+
+
+.nav {
+	background-color: #f4712a;
+	color: #b81212;
+	text-align: center;
+	border-bottom: 3px solid #b81212;
+	border-top: 3px solid #b81212;
+	z-index: 900
+}
+.button {
+	background-color: #b81212;
+	color: #ffffff;
+	border:none;
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-top: 5px;
+
+}
+.button:hover, .button:active {
+	color: #5c0909;
+}
+.linkwrap {
+	padding-top:15px;
+	padding-bottom:15px;
+}
+h1 {
+	font-family: 'Great Vibes', cursive;
+}
+h2 {
+	font-family: 'Great Vibes', cursive;
+	font-size: 100px;
+	color: white;
+	margin-top: -28%;
+}
+h3 {
+	text-align: center;
+	font-family: 'Great Vibes', cursive;
+	margin-top: 10px;
+}
+h4 {
+	font-family: 'Great Vibes', cursive;
+	font-size: 20px;
+}
+h5 {
+	font-family: 'News Cycle', sans-serif;
+}
+
+
+
+/*------ Home page -----*/
+
+.majesty, .grace, .pizza {
+	width: 100%;
+	height:auto;
+	text-align: center;
+}
+
+.majestycat, .pizzacat {
+	width: 100%;
+	height: auto;
+	border-bottom: 3px solid #b81212;
+}
+.gracecat {
+	width: 100%;
+	height: auto;
+	border-bottom: 3px solid #b81212;
+	border-left: 3px solid #b81212;
+}
+.pizzacat {
+	width: 100%;
+	height: auto;
+	border-bottom: 3px solid #b81212;
+	border-left: 3px solid #b81212;
+}
+
+.four,.columns {
+	margin:0;
+}
+
+
+.welcome {
+	text-align: center;
+	margin: 50px;
+}
+.header {
+	font-family: 'Great Vibes', cursive;
+	font-size: 30px;
+}
+.hook {
+	font-family: 'Great Vibes', cursive;
+	font-size: 20px;
+}
+.introduction {
+	font-family: 'News Cycle', sans-serif;
+	font-size: 20px;
+}
+
+/*   PARTIES AND RECEPTIONS    */
+
+.partyContainer {
+	border: 3px dashed #f4712a;
+	padding: 30px;
+	padding-right: -40px;
+	margin: 20px;
+
+}
+.partyPic {
+	border: 3px solid #b81212;
+	background-image: url(images/catparty.jpg);
+	background-size: cover;
+	width: 450px;
+	height: 280px;
+	background-position: center;
+	margin: 0 auto;
+}
+.partyDesc {
+	padding: 50px;
+}
+
+.partycontent {
+	margin-top: 30px;
+}
+.wrapper {
+	margin-left: 50px;
+	margin-right: 50px;
+}
+.partytable {
+	margin-top: 50px;
+	width: 100%;
+	margin-bottom: 70px;
+}
+
+
+
+
+
+/*		MENU		*/
+
+.stupid {
+	background-color: #b81212;
+	margin-left: 30px;
+	margin-right: 30px;
+	position: relative;
+	border-radius: 0px 0px 30px 30px;
+
+}
+.stupid:before {
+	border-left: 2px solid #f4712a;
+	border-right: 2px solid #f4712a;
+	content: " ";
+	position: absolute;
+	right: 2px;
+	left: 2px;
+}
+
+.clickdrinks {
+	background-color: #b81212;
+	font-family: 'Great Vibes', cursive;
+	font-size: 30px;
+	padding-left: 20px;
+	border-radius: 0px 0px 30px 30px;
+	border-bottom: 2px solid #f4712a;
+	border-left: 2px solid #f4712a;
+	border-right: 2px solid #f4712a;
+	height: 45px;
+}
+.clicksides, .clickbreakfast, .clicklunch, .clickdinner, .clickdessert {
+	background-color: #b81212;
+	font-family: 'Great Vibes', cursive;
+	font-size: 30px;
+	padding-left: 20px;
+	border-radius: 0px 0px 30px 30px;
+	border-bottom: 2px solid #f4712a;
+	height: 45px;
+	border-left: 2px solid #f4712a;
+	border-right: 2px solid #f4712a;
+	
+}
+.drinksmenu {
+	background-color: #b81212;
+	font-size: 15px;
+	padding:10px;
+	font-family: 'News Cycle', sans-serif;
+	margin-bottom: -10px;
+	display: none;
+	border-left: 2px solid #f4712a;
+	border-right: 2px solid #f4712a;
+}
+
+.sidesmenu, .breakfastmenu, .lunchmenu, .dinnermenu, .dessertmenu {
+	background-color: #b81212;
+	font-size: 15px;
+	padding:10px;
+	padding-top: 0px;
+	font-family: 'News Cycle', sans-serif;
+	margin-bottom: -10px;
+	display: none;
+	border-left: 2px solid #f4712a;
+	border-right: 2px solid #f4712a;
+}
+.drinkstable {
+	background-color: #f4712a;
+	border-radius: 0px 0px 30px 30px;
+	padding: 10px;
+	margin-top: -10px;
+}
+
+.sidestable, .breakfasttable, .lunchtable, .dinnertable, .desserttable {
+	background-color: #f4712a;
+	border-radius: 0px 0px 30px 30px;
+	padding: 10px;
+}
+
+
+/* MEET THE CATS */
+/*______________________________________________*/
+
+.catOne, .catTwo, .catThree, .catFour, .catFive, .catSix, .catSeven, .catEight, .catNine {
+	margin: auto;
+	margin-top: 50px;
+	padding: 35px;
+	width: 300px;
+	height: 250px;
+	background-position: center;
+	border: 3px solid #f4712a;
+}
+.catsContainer {
+	width: 100%;
+	margin: auto;
+	margin-bottom: 100px;
+}
+.catOne {
+	background-image: url(images/cat1.jpg);
+	background-size: cover;
+}
+.catTwo {
+	background-image: url(images/cat2.jpg);
+	background-size: cover;
+}
+.catThree {
+	background-image: url(images/cat10.jpg);
+	background-size: cover;
+}
+.catFour {
+	background-image: url(images/cat4.jpg);
+	background-size: cover;
+}
+.catFive {
+	background-image: url(images/cat5.jpg);
+	background-size: cover;
+	background-position: center left;
+}
+.catSix {
+	background-image: url(images/cat6.jpg);
+	background-size: cover;
+}
+.catSeven {
+	background-image: url(images/cat7.jpg);
+	background-size: cover;
+}
+.catEight {
+	background-image: url(images/cat8.jpg);
+	background-size: cover;
+}
+.catNine {
+	background-image: url(images/cat9.jpg);
+	background-size: cover;
+}
+
+/* ----- Locations -------*/
+.locationsHeader {
+	padding: 100px;
+	width: 800px;
+	margin-left: 100px;
+}
+.locationsContent {
+	padding-left: 70px;
+	padding-right: 70px;
+	margin-top: -30px;
+	margin-left: 200px;
+	margin-right: 200px;
+	padding-bottom: 50px;
+	margin-bottom: 50px;
+	width: auto;
+}
+.locationsInfo {
+	padding: 50px;
+	padding-right: 0px;
+	border: 2px solid #f4712a;
+	height: 250px;
+}
+.locationsInfo p {
+	font-size: 17px;
+}
+.locationsImage {
+	width: 100%;
+	height: 250px;
+}
+.locationsInfoText {
+	padding-left: 50px;
+	margin-right: 0;
+	padding-top: 40px;
+
+}
+.hours {
+	margin-top: -25px;
+	padding-left: 15px;
+	margin-left: 30px;
+}
+
+
+/* ------- Contact Us ----------*/
+.contactContainer {
+	text-align: center;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 40px;
+}
+.contactContent {
+	border: 3px dashed #b81212;
+	padding-top: 25px;
+	margin: 540px;
+	margin-top: 0px;
+	margin-bottom: 10px;
+
+}
+
+form {
+	margin-left: 200px;
+	margin-right: 200px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+#exampleEmailInput {
+	color: #800c0c;
+}
+.button-primary {
+	background-color: #b81212 !important;
+	border: none !important;
+}
+#exampleMessage {
+	color: #800c0c;
+}
+
+
+/* Mobile first queries */
+
+/* Larger than mobile */
+@media (max-width: 400px) {
+
+}
+
+/* Larger than phablet */
+@media (max-width: 550px) {
+	.nav a {
+		font-size: 4px;
+	}
+	.pizzacat {
+		border-left: none;
+	}
+	.gracecat {
+		border-left: none;
+	}
+	h2 {
+		font-size: 500px;
+		margin-top: none;
+	}
+}
+
+/* Larger than tablet */
+@media (max-width: 800px) {
+	.nav {
+		margin-bottom: none;
+		margin-top: none;
+	}
+	h2 {
+		top: 15px;
+		font-size: 55px;
+	}
+	.drinks {
+		top: -300px;
+	}
+	.sides {
+		top: -225px;
+	}
+	.breakfast {
+		top:-150px;
+	}
+	.lunch {
+		top: -77px;
+	}
+	.dinner {
+		top: -2px;
+	}
+	.dessert {
+		top: 72px;
+	}
+	.catOne, .catTwo, .catThree, .catFour, .catFive, .catSix, .catSeven, .catEight, .catNine {
+		margin: auto;
+		margin-top: 50px;
+		padding: 35px;
+		width: 150px;
+		height: 125px;
+		background-position: center;
+		border: 3px solid #f4712a;
+	}
+	.contactContent {
+		padding-top: 25px;
+		margin: 170px;
+		margin-top: 0px;
+		margin-bottom: 10px;
+
+	}
+
+	.partycats {
+		width: 100%;
+	}
+
+	.partycontent {
+		margin-top: 30px;
+	}
+	.wrapper {
+		margin-left: 50px;
+		margin-right: 50px;
+	}
+	.partydesc {
+		margin-left: 50px;
+		margin-right: 50px;
+	}
+	.partytable {
+		margin-top: 50px;
+		width: 100%;
+	}
+
+}
+
+
+/* Larger than desktop */
+@media (max-width: 1000px) {
+
+}
+
+
+/* Larger than Desktop HD */
+@media (max-width: 1200px) {
+}
